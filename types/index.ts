@@ -3,5 +3,5 @@ import { insertProductsSchema } from '@/lib/validators'
 export type Product = z.infer<typeof insertProductsSchema> & {
   id:string,
   rating:string,
-  createdAT:Date;
+  createdAt:Date;
 }
